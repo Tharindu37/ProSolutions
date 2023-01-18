@@ -3,8 +3,7 @@
     padding: 0;
 }
 
-.header-wrap{
-    border: 0 ;
+.header-wrap{    
     display: flex;
     background-size: contain;
 } 
