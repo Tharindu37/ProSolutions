@@ -12,3 +12,16 @@
     width: 100%;
     height: 100vh;
 }
+.about_image>img{  
+    height: 400;
+}
+
+.about{
+    padding: 5%;  
+}
+.about>.row{
+    margin-top: 5px;
+}
+.secondary_color{
+    color: red;
+}
