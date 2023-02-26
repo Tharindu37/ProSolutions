@@ -15,7 +15,7 @@
     height: 100vh;
 }
 .about_image>img{  
-    height: 400px;
+    width: 100%;
 }
 
 .about{
