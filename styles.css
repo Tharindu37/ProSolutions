@@ -15,7 +15,7 @@
     height: 100vh;
 }
 .about_image>img{  
-    height: 400;
+    height: 400px;
 }
 
 .about{
@@ -31,7 +31,6 @@
 .welcome-outer{
     width: auto;
     height: auto;
-    
     position: absolute;
     bottom: 80px;
     left: 90px;
