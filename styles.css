@@ -4,7 +4,7 @@
 }
 
 .header-wrap{    
-    height: 100vh;
+    height: calc(100vh - 56px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +50,7 @@
     width: auto;
     height: auto;
     position: absolute;
-    bottom: 80px;
+    bottom: 50px;
     left: 90px;
     color: white;
 }
