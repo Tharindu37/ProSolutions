@@ -5,9 +5,6 @@
 
 .header-wrap{    
     height: calc(100vh - 56px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: relative;
     background: url(assets/office.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -60,9 +57,9 @@
 
 @media screen and (max-width: 1024px) {
     .welcome-outer{
-        position: relative;
-        left: initial;
-        bottom: initial;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
         width: 90%;
     }
 }
