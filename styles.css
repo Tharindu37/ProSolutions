@@ -30,7 +30,9 @@
     height: 100vh;
 }
 .about_image>img{  
-    width: 100%;
+
+    height: 400px;
+
 }
 
 .about{
@@ -39,7 +41,7 @@
 .about>.row{
     margin-top: 5px;
 }
-.secondary_color{
+.Secondary_Color{
     color: red;
 }
 /* welcome text */
@@ -63,3 +65,4 @@
         width: 90%;
     }
 }
+
