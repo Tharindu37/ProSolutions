@@ -4,10 +4,25 @@
 }
 
 .header-wrap{    
-    background-color: black;
-    display: flex;
-    background-size: contain;
+    height: calc(100vh - 56px);
+    position: relative;
+    background: url(assets/office.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 } 
+
+.header-wrap::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right,#000,#000);
+    opacity: .6;
+}
  
 .header-wrap>img{
     opacity: 40%;
@@ -15,7 +30,7 @@
     height: 100vh;
 }
 .about_image>img{  
-    height: 400;
+    width: 100%;
 }
 
 .about{
@@ -31,12 +46,20 @@
 .welcome-outer{
     width: auto;
     height: auto;
-    
     position: absolute;
-    bottom: 80px;
+    bottom: 50px;
     left: 90px;
     color: white;
 }
 .welcome-outer>h6{
     margin-bottom:-5px;
+}
+
+@media screen and (max-width: 1024px) {
+    .welcome-outer{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+    }
 }
