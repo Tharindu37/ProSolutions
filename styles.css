@@ -40,3 +40,71 @@
 .welcome-outer>h6{
     margin-bottom:-5px;
 }
+
+.services{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.services .col-4{
+
+   width: 352px;
+   height: 368px;
+   margin: 50px;
+   background: #D9D9D9;
+   
+   
+}
+
+.services .col-4 .img-wrap{
+    position: relative;
+    width: 111px;
+    height: 111px;
+    
+    left: 121px;
+    top: 28px;
+}
+
+.services .col-4 .img-wrap img{
+    width: 111px;
+    height: 111px;
+}
+
+.services .col-4 h1{
+    position: relative;
+    width: 251px;
+    height: 29px;
+    top: 50px;
+    left: 55px;
+    display:flex;
+    justify-content: center;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.services .col-4 p{
+    position: relative;
+    width: 303px;
+    height: 76px;
+    left: 29px;
+    top: 55px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+} 
