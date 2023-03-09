@@ -31,10 +31,26 @@
 }
 /* About Section Style*/
 .about_image > img {
-  height: 400px;
+  max-width: 110%;
+  margin: -50px;
+  position: relative;
+  
+}
+.about_image{
+  height: 425px;
+  width: 500px;
+  overflow: hidden;
+  padding-left: 5%;
+  justify-content: center;
+  
+}
+.about_text{
+  
+  text-align: justify;
 }
 .about {
   padding: 5%;
+  justify-content: center;
 }
 .about > .row {
   margin-top: 5px;
