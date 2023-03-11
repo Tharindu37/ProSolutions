@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .header-wrap {
   height: calc(100vh - 56px);
   position: relative;
