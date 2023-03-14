@@ -75,6 +75,30 @@ html {
   margin-bottom: -5px;
 }
 
+.solutions{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(assets/solutions-comp.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  width: 100%;
+  padding-top: 10%;
+}
+.solutions p, .solutions p a{
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: bold;
+  opacity: none;
+}
+.content{
+  padding-bottom: 10%;
+}
+.solutions-main{
+  background: black;
+}
+
 @media screen and (max-width: 1024px) {
   .welcome-outer {
     position: absolute;
