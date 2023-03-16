@@ -11,8 +11,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
-     <link rel="stylesheet" href="styles.css"type="text/css">   
-    <title>Home</title>
+     <link rel="stylesheet" href="styles.css"type="text/css">  
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script> 
+    <title>ProSolutions</title>
 </head>
 
 <body>
@@ -35,10 +36,10 @@
                             <a class="nav-link" href="#">Services</a>
                         </li>
                         <li class="nav-item px-3">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item px-3">
-                            <a class="nav-link" href="#">Solutions</a>
+                            <a class="nav-link" href="#solutions">Solutions</a>
                         </li>
                         <li class="nav-item px-3">
                             <a class="nav-link" href="#">Technology</a>
@@ -60,6 +61,7 @@
             </div>
          </div>      
     </div>
+    
     <!-- About Section -->
     <div class="container about">
         <div class="row-main">
@@ -67,7 +69,7 @@
                 <div class="d-none d-md-block col-md-12 col-lg-6 mx-auto w-50 about_image">
                     <img src="assets/about.jpg">
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-6 mx-auto w-50 about_text">
+                <div class="col-sm-12 col-md-12 mx-auto w-50 col-lg-6  about_text">
                     <h3 class="Secondary_Color">//ABOUT COMPANY</h3>
                     <h1>Your Partner For<br>Software <span class="Secondary_Color">Innovations</span></h1>
                     <p>
@@ -83,14 +85,23 @@
             </div>
         </div>
     </div>
+    
+    <!-- Contributors Section -->
+    <div class="container contributors">
+        <h3 class="title-wrap">Our Contributors</h3>
+        <div class="row" id="contributor">
+        </div>
+    </div>
+
     <!--Solutions Section-->
-        <div class="solutions">
+        <div class="solutions" id="solutions">
             <div class="content">
                 <p>We Love What We Do And Solve Your IT</p>
                 <p><a href="#">Business Solutions</a></p>
             </div>
         </div>
 
+    
+    <script src="main.js"></script>
    </body>
-
 </html>
