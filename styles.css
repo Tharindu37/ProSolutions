@@ -54,6 +54,7 @@ html {
 }
 .about {
   padding: 5%;
+  padding-bottom: 0px;
   justify-content: center;
 }
 .about > .row {
