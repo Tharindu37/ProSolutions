@@ -57,6 +57,7 @@ html {
   justify-content: center;
 }
 .about > .row {
+  justify-content: center;
   margin-top: 5px;
 }
 .Secondary_Color {
