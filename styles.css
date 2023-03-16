@@ -99,6 +99,32 @@ html {
   background: black;
 }
 
+/* Contributor Sectioin */
+.contributors{
+  margin-bottom: 50px;
+}
+.contributor-wrap{
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image-wrap{
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.title-wrap{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.contributors> h3{
+  margin-top: 20px;
+}
+/* Contributor Sectioin end*/
+
 @media screen and (max-width: 1024px) {
   .welcome-outer {
     position: absolute;
