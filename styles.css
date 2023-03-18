@@ -181,4 +181,7 @@ text-align: center;
   .techgrid{
     flex-wrap: wrap; 
   }
+  .techgrid::after{
+    display: none;
+  }
 }
