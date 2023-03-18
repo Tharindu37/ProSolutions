@@ -10,8 +10,10 @@ $(document).ready(function(){
                 $("#contributor").append(`
                     <div class="col-sm-12 col-md-4 col-lg-3">
                         <div class="contributor-wrap">
-                            <img src="${element.avatar_url}" alt="" class="image-wrap">
-                            <h6 class="name-wrap">${element.name==null?element.login:res.name}</h6>
+                            <a href="${element.html_url}" target="_blank">
+                                <img src="${element.avatar_url}" alt="" class="image-wrap">
+                                <h6 class="name-wrap">${element.name==null?element.login:res.name}</h6>
+                            </a>
                         </div>
                     </div>
                 `)

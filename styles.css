@@ -107,6 +107,23 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  transition-duration: 200ms;
+}
+.contributor-wrap a{
+text-decoration: none;
+color: black;
+text-align: center;
+}
+.contributor-wrap:hover{
+  border-color:rgba(36, 36, 250,0.3);
+  transform: scale(1.05);
+  background-color: rgba(36, 36, 250,0.1);
+}
+.contributor-wrap:hover a{
+  color: rgb(36, 36, 250);
 }
 .image-wrap{
   width: 130px;
