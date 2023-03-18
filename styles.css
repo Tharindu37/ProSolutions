@@ -133,4 +133,24 @@ html {
   }
 }
 
+/* Technology Section*/
+.technology {
+  margin-top: 60px;
+}
 
+.techgrid{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  margin: 0 20px;
+  flex-flow: row wrap;
+}
+
+.techgrid::after{
+  content: "";
+  flex: auto;
+}
+
+.img-tech {
+  flex-basis: 15%;
+}
