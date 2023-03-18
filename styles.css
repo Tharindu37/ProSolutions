@@ -150,4 +150,38 @@ text-align: center;
   }
 }
 
+/* Technology Section*/
+.technology {
+  margin-top: 60px;
+}
 
+.techgrid{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  margin: 0 20px;
+  flex-wrap: wrap;
+}
+
+.techgrid::after{
+  content: "";
+  flex: auto;
+}
+
+.img-tech {
+  width: calc(15% - 60px);
+  margin: 20px 30px 20px 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .img-tech{
+    width: calc(40% - 20px);
+    margin: 20px;
+  }
+  .techgrid{
+    flex-wrap: wrap; 
+  }
+  .techgrid::after{
+    display: none;
+  }
+}
