@@ -80,26 +80,23 @@ html {
   background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(assets/solutions-comp.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100%;
+  display: grid;
+  place-content: center;
+  height: 18rem;
   background-position: center;
   width: 100%;
-  padding-top: 10%;
 }
 .solutions p, .solutions p a{
   color: white;
   font-size: 2rem;
   text-align: center;
-  margin: 0 auto;
   font-weight: bold;
   opacity: none;
-}
-.content{
-  padding-bottom: 10%;
+  margin-bottom: 0;
 }
 .solutions-main{
   background: black;
 }
-
 /* Contributor Sectioin */
 .contributors{
   margin-bottom: 50px;
