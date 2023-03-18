@@ -160,7 +160,7 @@ text-align: center;
   justify-content: space-between; 
   align-items: center;
   margin: 0 20px;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
 }
 
 .techgrid::after{
@@ -169,5 +169,16 @@ text-align: center;
 }
 
 .img-tech {
-  flex-basis: 15%;
+  width: calc(15% - 60px);
+  margin: 20px 30px 20px 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .img-tech{
+    width: calc(40% - 20px);
+    margin: 20px;
+  }
+  .techgrid{
+    flex-wrap: wrap; 
+  }
 }
