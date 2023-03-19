@@ -81,26 +81,23 @@ html {
   background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(assets/solutions-comp.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100%;
+  display: grid;
+  place-content: center;
+  height: 18rem;
   background-position: center;
   width: 100%;
-  padding-top: 10%;
 }
 .solutions p, .solutions p a{
   color: white;
   font-size: 2rem;
   text-align: center;
-  margin: 0 auto;
   font-weight: bold;
   opacity: none;
-}
-.content{
-  padding-bottom: 10%;
+  margin-bottom: 0;
 }
 .solutions-main{
   background: black;
 }
-
 /* Contributor Sectioin */
 .contributors{
   margin-bottom: 50px;
@@ -111,12 +108,30 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  transition-duration: 200ms;
+}
+.contributor-wrap a{
+text-decoration: none;
+color: black;
+text-align: center;
+}
+.contributor-wrap:hover{
+  border-color:rgba(36, 36, 250,0.3);
+  transform: scale(1.05);
+  background-color: rgba(36, 36, 250,0.1);
+}
+.contributor-wrap:hover a{
+  color: rgb(36, 36, 250);
 }
 .image-wrap{
   width: 130px;
   height: 130px;
   border-radius: 50%;
   margin-bottom: 10px;
+  box-shadow: 0 0  8px 3px black;
 }
 .title-wrap{
   text-align: center;
@@ -137,4 +152,38 @@ html {
   }
 }
 
+/* Technology Section*/
+.technology {
+  margin-top: 60px;
+}
 
+.techgrid{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  margin: 0 20px;
+  flex-wrap: wrap;
+}
+
+.techgrid::after{
+  content: "";
+  flex: auto;
+}
+
+.img-tech {
+  width: calc(15% - 60px);
+  margin: 20px 30px 20px 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .img-tech{
+    width: calc(40% - 20px);
+    margin: 20px;
+  }
+  .techgrid{
+    flex-wrap: wrap; 
+  }
+  .techgrid::after{
+    display: none;
+  }
+}
