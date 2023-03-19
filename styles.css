@@ -53,8 +53,6 @@ html {
   text-align: justify;
 }
 .about {
-  padding: 5%;
-  padding-bottom: 0px;
   justify-content: center;
 }
 .about > .row {
