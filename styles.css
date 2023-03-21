@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 0;
+  padding: 0;  
 }
 
 html {
@@ -18,8 +18,8 @@ html {
   background: #555;
   border-radius: 5px;
 }
-::-webkit-scrollbar-thumb:hover {
-  background: #1f1f1f;
+::-webkit-scrollbar-thumb:hover {  
+  background: #FF0000;  
 }
 .header-wrap {
   height: calc(100vh - 56px);
