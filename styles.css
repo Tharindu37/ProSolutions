@@ -196,15 +196,12 @@ text-align: center;
 
 /* Scroll up arrow */
 .scroll-up-wrap{
-  background-color: red;
+  background-color: transparent;
   position: fixed;
   bottom: 30px;
   right: 20px;
   z-index: 100;
-  color: white;
   cursor: pointer;
-  border-radius: 4px;
-  padding: 8px;
   display: none;
 }
 /* End Scroll up arrow */
