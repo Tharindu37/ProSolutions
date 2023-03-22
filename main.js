@@ -1,5 +1,5 @@
-// Load Contributers
 $(document).ready(function(){
+    // Load Contributers
     $.ajax({
         url: "https://api.github.com/repos/Tharindu37/ProSolutions/contributors",
         type: 'GET',
@@ -21,3 +21,27 @@ $(document).ready(function(){
         }
     }); 
 });
+
+// Scroll up arrow
+let scrollArray=document.getElementById("scrollArrow");
+
+window.onscroll=function(){
+    showScrollArrow();
+}
+
+window.onclick=function(){
+    scrollToTop();
+}
+
+function showScrollArrow(){
+    if(document.body.scrollTop>30 || document.documentElement.scrollTop>30){
+        scrollArray.style.display="block";
+    }else{
+        scrollArray.style.display="none";
+    }
+}
+
+function scrollToTop(){
+    document.body.scrollTop=0;
+    document.documentElement.scrollTop=0;
+}
