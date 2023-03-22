@@ -193,6 +193,21 @@ text-align: center;
   background-color: rgba(36, 36, 250,0.1);
 }
 
+
+/* Scroll up arrow */
+.scroll-up-wrap{
+  background-color: red;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  z-index: 100;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 8px;
+  display: none;
+}
+/* End Scroll up arrow */
 @media screen and (max-width: 1024px) {
   .img-tech{
     width: calc(40% - 20px);
