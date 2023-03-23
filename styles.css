@@ -196,16 +196,16 @@ text-align: center;
 
 /* Scroll up arrow */
 .scroll-up-wrap{
-  background-color: red;
+  background-color: transparent;
   position: fixed;
   bottom: 30px;
   right: 20px;
   z-index: 100;
-  color: white;
   cursor: pointer;
-  border-radius: 4px;
-  padding: 8px;
   display: none;
+}
+.scroll-up-wrap img{
+  width: 30px;
 }
 /* End Scroll up arrow */
 @media screen and (max-width: 1024px) {
