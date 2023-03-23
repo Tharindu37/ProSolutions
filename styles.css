@@ -204,6 +204,9 @@ text-align: center;
   cursor: pointer;
   display: none;
 }
+.scroll-up-wrap img{
+  width: 30px;
+}
 /* End Scroll up arrow */
 @media screen and (max-width: 1024px) {
   .img-tech{
