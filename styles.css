@@ -21,6 +21,14 @@ html {
 ::-webkit-scrollbar-thumb:hover {  
   background: #FF0000;  
 }
+
+#nav-bar {
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  z-index: 1;
+}
+
 .header-wrap {
   height: calc(100vh - 56px);
   position: relative;
