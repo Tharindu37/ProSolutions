@@ -303,6 +303,66 @@ text-align: center;
 .scroll-up-wrap img{
   width: 30px;
 }
+
+.footer{
+  display: flex;
+  background-color: rgb(235, 252, 253);
+  flex-wrap: wrap;
+  
+}
+.footer div{
+  padding: 30px 60px;
+}
+span{
+  color: red;
+}
+.footer p{
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.sec1 button{
+  background-color: #FF0000;
+  color: white;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 5px;
+}
+
+.sec2 input{
+  width: 350px;
+  padding: 8px;
+  background-color: #f3f3f3;
+  border: none;
+}
+.sec2 textarea{
+  height: 150px;
+  width: 350px;
+  padding: 8px;
+  background-color: #f3f3f3;
+  border: none;
+}
+.sec2 button{
+  margin-top: 15px;
+  background-color: #FF0000;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 25px;
+  color: white;
+}
+hr{
+  width: 100%;
+  /* height: 10px; */
+  border: 1px solid black;
+}
+.copyright{
+  font-weight: 500;
+  display: flex;
+  margin:auto;
+  padding: 3px;  
+   
+}
+
 /* End Scroll up arrow */
 @media screen and (max-width: 1024px) {
   .img-tech{
