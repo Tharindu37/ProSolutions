@@ -24,7 +24,7 @@ $(document).ready(function(){
                 $('#btnShowMore').css('display','block')
                 $('#btnShowMore').click(function(){
                     for(let i=8;i<res.length;i++){
-                        $('.loading-wrap').css('display','none')
+                        $('.loading-wrap').css('display','block')
                         appendContributor(res[i])
                         $('.loading-wrap').css('display','none')
                     }
