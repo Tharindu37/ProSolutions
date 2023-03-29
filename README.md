@@ -3,7 +3,6 @@ ProSolutions Company Website
 
 Available at :
 https://tharindu37.github.io/ProSolutions/ 
-https://pro-solutions.vercel.app/
 
 ### Used technology
 - HTML
